@@ -9,20 +9,21 @@ project_dir: ""
 admin_user: ""
 domain: ""
 
-# RHEL Version
-rhel_version: ""
-
 ####
 # Enable Gitops 
 enable_gitops: false 
 default_gitops_repo: https://github.com/tosin2013/openshift-virtualization-gitops.git
-directory_name: "kcli-openshift4-baremetal-dsal"
+directory_name: "kcli-openshift4-baremetal"
+
+# RHEL Version
+rhel_version: ""
 
 # PTR - The PTR record that should be use
 qubinode_ptr: changeme.in-addr.arpa
 
 # Public DNS server
 dns_forwarder: ""
+
 
 # ROLE: swygue-redhat-subscription
 # whether to use username/pass or RHSM
